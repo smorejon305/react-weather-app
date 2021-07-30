@@ -1,3 +1,19 @@
+:root {
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-accent: "Raleway", sans-serif;
+
+  --clr-neutral-100: #f3f2c9;
+  --clr-neutral-900: #000;
+  --clr-teal-200: #53b8bb;
+  --clr-teal-500: #055052;
+  --clr-teal-800: #003638;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: skyblue;
 }
@@ -17,14 +33,13 @@ body {
 }
 
 .App-header {
-  background-color: darkslategrey;
-  min-height: 100vh;
+  background-color: skyblue;
+  min-height: 20 v h;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--clr-teal-800);
 }
 
 .App-link {

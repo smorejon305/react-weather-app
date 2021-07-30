@@ -8,10 +8,10 @@ export default function Search() {
         <input
           type="text"
           placeholder="Search for a city"
-          class="searchBox"
+          className="searchBox"
           id="search-box"
         />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search" className="searchBtn" />
       </form>
     </div>
   );

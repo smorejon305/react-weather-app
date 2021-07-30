@@ -1,0 +1,13 @@
+.Search {
+  margin: 2em auto;
+}
+
+.searchBox {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.searchBtn {
+  border-radius: 5px;
+  padding: 5px;
+}
