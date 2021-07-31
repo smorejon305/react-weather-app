@@ -6,7 +6,7 @@ export default function Forecast() {
   return (
     <div className="forecastGrid">
       <div className="forecastDays">
-        <div className="weekday"> SAT</div>
+        <div className="forecastWeekday"> SAT</div>
         <div className="forecastIcon">
           <ReactAnimatedWeather
             icon="CLEAR_DAY"
@@ -19,7 +19,7 @@ export default function Forecast() {
       </div>
 
       <div className="forecastDays">
-        <div className="weekday"> SUN</div>
+        <div className="forecastWeekday"> SUN</div>
         <div className="forecastIcon">
           <ReactAnimatedWeather
             icon="PARTLY_CLOUDY_DAY"
@@ -32,7 +32,7 @@ export default function Forecast() {
       </div>
 
       <div className="forecastDays">
-        <div className="weekday"> MON</div>
+        <div className="forecastWeekday"> MON</div>
         <div className="forecastIcon">
           <ReactAnimatedWeather
             icon="FOG"
@@ -45,7 +45,7 @@ export default function Forecast() {
       </div>
 
       <div className="forecastDays">
-        <div className="weekday"> TUE</div>
+        <div className="forecastWeekday"> TUE</div>
         <div className="forecastIcon">
           <ReactAnimatedWeather
             icon="SNOW"
@@ -58,7 +58,7 @@ export default function Forecast() {
       </div>
 
       <div className="forecastDays">
-        <div className="weekday"> WED</div>
+        <div className="forecastWeekday"> WED </div>
         <div className="forecastIcon">
           <ReactAnimatedWeather
             icon="RAIN"

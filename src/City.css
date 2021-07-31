@@ -1,4 +1,5 @@
 .day-date-time {
   font-family: var(--ff-primary);
   font-size: 1em;
+  margin: 1em;
 }
