@@ -19,7 +19,6 @@
 
 @media screen and (min-width: 1024px) {
   .forecastDays {
-    background-color: red;
   }
   .forecastWeekday {
     font-size: 2em;
